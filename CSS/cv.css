@@ -1,5 +1,5 @@
 .left-screen {
-    background-color: rgba(100,149,104,0.7);
+    background-color: rgba(212,241,249,0.7);
 
     position: relative;
     bottom: 0;
@@ -8,11 +8,10 @@
 }
 
 .right-screen {
-    background-color: rgba(1,1,1,0.7);
+    background-color: rgba(200,190,154,0.7);
     position: relative;
     bottom: 0;
     right: 0;
-
     top: 0;
 }
 
@@ -35,7 +34,14 @@
     margin:10px;
     text-align: center;
     font-size:20px;
-    color:rgba(14, 107, 14,1);
+    color:rgba(141,135,65,1);
+    font-weight: bold;
+}
+.right-screen-text-delimiter{
+    margin:10px;
+    text-align: center;
+    font-size:25px;
+    color:rgba(141,135,65,1);
     font-weight: bold;
 }
 .profile-text{
@@ -55,11 +61,14 @@
     background-color: lightgray;
     float: left;
     display: block;
-    height: 20px;
+    height: 15px;
 }
 
 .filled {
-    background-color: rgba(14, 107, 14,1); !important;
+    background-color: rgba(218,173,134,1); !important;
+}
+.filled-skill {
+    background-color: rgba(101,157,189,1); !important;
 }
 .language-title{
     margin-left: 1px;
@@ -72,5 +81,33 @@
 .hobbies-icon{
     width: 50px;
     height: auto;
+}
 
+.skill-part {
+    border-right-style: solid;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+.skill-text{
+    font-size: 20px;
+}
+.skill-title{
+    margin-left: 1px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.job-title{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.job-description{
+    margin-left:70px;
+    padding-bottom: 30px;
+}
+.job-description-inner-list{
+    margin-bottom: 30px;
 }
